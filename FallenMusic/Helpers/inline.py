@@ -30,7 +30,7 @@ close_key = InlineKeyboardMarkup(
 )
 
 
-# contributions by @CoderX on TG!
+# contributions by @CoderX on TG! (@Snehashish06)
 buttons = InlineKeyboardMarkup(
     [
         [
@@ -40,7 +40,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb")
         ],
         [
-            InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/Xd_bots_updates")
+            InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://Xd_bots_updates.t.me")
         ]
     ]
 )
