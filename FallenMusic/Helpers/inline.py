@@ -30,14 +30,17 @@ close_key = InlineKeyboardMarkup(
 )
 
 
+# contributions by @CoderX on TG!
 buttons = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="▷", callback_data="resume_cb"),
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
-            InlineKeyboardButton(text="▢", callback_data="end_cb"),
-            InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •",url=f"https://t.me/Xd_bots_updates"),
+            InlineKeyboardButton(text="▢", callback_data="end_cb")
+        ],
+        [
+            InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/Xd_bots_updates")
         ]
     ]
 )
