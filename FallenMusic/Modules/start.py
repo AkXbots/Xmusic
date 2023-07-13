@@ -68,7 +68,7 @@ async def fallen_st(_, message: Message):
                         [
                             InlineKeyboardButton(text="ʏᴏᴜᴛᴜʙᴇ", url=link),
                             InlineKeyboardButton(
-                                text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_CHAT
+                                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHAT
                             ),
                         ],
                     ]
